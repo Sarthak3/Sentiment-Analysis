@@ -31,7 +31,6 @@ def create_lexicon(pos,neg):
 		#print(w_counts[w])
 		if 1000 > w_counts[w] > 50:
 			l2.append(w)
-	print(len(l2))
 	return l2
 
 
